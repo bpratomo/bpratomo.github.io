@@ -6195,7 +6195,7 @@ Y.k9.prototype={}
 Y.dr.prototype={
 ga9:function(a){return this.aE(new L.u({}))},
 W:function(a){var s,r,q,p,o,n=A.aj($.at(),null)
-n.sF(0,"fixed h-1/4 w-full bg-slate-800 inset-x-0 bottom-0 flex flex-col justify-center align-center px-[5%] py-[3%] ")
+n.sF(0,"fixed h-1/4 w-full bg-slate-800 inset-x-0 bottom-0 flex flex-col justify-center align-center px-[1%] py-[1%] ")
 s=$.nQ().$0()
 r=t.s
 s.sbu(H.x("QWERTYUIOP".split(""),r))
@@ -6276,7 +6276,7 @@ G.au.prototype={$ie:1,$iA:1,$iz:1}
 G.ds.prototype={
 ga9:function(a){return this.aE(new L.u({}))},
 W:function(a){var s,r,q,p,o,n,m,l=this,k=A.aj($.at(),null)
-k.sF(0,"flex flex-col justify-center align-center p-2 border border-slate-100 w-full ")
+k.sF(0,"flex flex-col justify-center align-center p-2 border border-slate-300 w-full m-1 ")
 s=new G.ke()
 r=t.C
 q=t.e
@@ -6284,12 +6284,12 @@ p=C.a.by(P.ah(l.m.ga4(),!0,r),0,new G.kf(l,s),q)
 o=C.a.by(P.ah(l.m.ga4(),!0,r),0,new G.kg(l,s),q)
 n=C.a.by(P.ah(l.m.ga4(),!0,r),0,new G.kh(l,s),q)
 if(typeof p!=="number")return p.a1()
-if(p>0)k.sF(0,J.b0(k.gF(k)," bg-green-900 text-white "))
+if(p>0)k.sF(0,J.b0(k.gF(k)," bg-green-900 active:bg-green-300 text-white "))
 else{if(typeof o!=="number")return o.a1()
-if(o>0)k.sF(0,J.b0(k.gF(k)," bg-yellow-400 text-white "))
+if(o>0)k.sF(0,J.b0(k.gF(k)," bg-yellow-400 active:bg-yellow-200 text-white "))
 else{if(typeof n!=="number")return n.a1()
-if(n>0)k.sF(0,J.b0(k.gF(k)," bg-slate-800 text-white"))
-else k.sF(0,J.b0(k.gF(k)," bg-white text-black"))}}k.sbC(0,new G.ki(l))
+if(n>0)k.sF(0,J.b0(k.gF(k)," bg-slate-800 active:bg-slate-300 text-white"))
+else k.sF(0,J.b0(k.gF(k)," bg-white active:bg-slate-100 text-black"))}}k.sbC(0,new G.ki(l))
 m=A.aj($.at(),null)
 m.sF(0,"text-center")
 r=l.m
