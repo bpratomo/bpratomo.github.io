@@ -6084,7 +6084,7 @@ r=r.gj(r).i(0,"WordlePropsMixin.isFinished")
 if(H.a5(H.bT(r==null?null:r)))return
 r=J.N(a)
 if(J.b1(r.ga3(a),"Enter"))if(s.m.gL().length<5)C.k.al(window,"Only word with 5 character allowed")
-else if(!Q.q8(s.m.gL())){C.k.al(window,"Not a valid word")
+else if(!Q.q8(s.m.gL())){C.k.al(window,"Not in word list")
 s=s.m
 s.a_(s.gL())}else if(J.b3(s.m.ga4(),new S.lO(),t.X).R(0,s.m.gL())){C.k.al(window,"Word already guessed")
 s=s.m
@@ -6307,7 +6307,7 @@ r=r.gj(r).i(0,"KeyboardKeyProps.isFinished")
 if(H.a5(H.bT(r==null?null:r)))return
 r=s.m
 if(r.ga8(r)==="Enter")if(s.m.gL().length<5)C.k.al(window,"Only word with 5 character allowed")
-else if(!Q.q8(s.m.gL())){C.k.al(window,"Not a valid word")
+else if(!Q.q8(s.m.gL())){C.k.al(window,"Not in word list")
 s=s.m
 s.a_(s.gL())}else if(J.b3(s.m.ga4(),new G.k9(),t.X).R(0,s.m.gL())){C.k.al(window,"Word already guessed")
 s=s.m
