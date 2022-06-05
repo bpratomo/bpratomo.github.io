@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/writing-jekyll-posts/</loc>
+<lastmod>2016-07-20T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/dart_wordle/packages/build_runner/src/server/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/dart_wordle/packages/over_react/src/builder/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/dart_wordle/</loc>
+<lastmod>2022-06-05T10:57:54+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/dart_wordle/packages/build_runner/src/server/graph_viz.html</loc>
+<lastmod>2022-06-05T10:57:54+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/dart_wordle/packages/test/src/runner/browser/static/</loc>
+<lastmod>2022-06-05T10:57:54+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/weather/</loc>
+<lastmod>2022-06-05T10:56:23+02:00</lastmod>
+</url>
+</urlset>
