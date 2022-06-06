@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+    <ul class="app-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for app in site.portfolio -%}
+      <li>
+        <span class="app-meta">{{ app.date | date: date_format }}</span>
+        <h3>
+            <a class="app-link" href="/apps/{{app.apptitle}}">
+
+            {{ app.title | escape }}
+          </a>
+        </h3>
+        {{ app.excerpt }}
+        {%- if site.show_excerpts -%}
+        
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+
+</div>
