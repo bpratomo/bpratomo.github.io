@@ -14,7 +14,11 @@ layout: default
       <li>
         <span class="app-meta">{{ app.date | date: date_format }}</span>
         <h3>
+            {% if app.extlink %}
+            <a class="app-link" href="{{app.extlink}}">
+            {% else %}
             <a class="app-link" href="/apps/{{app.apptitle}}">
+            {% endif %}
 
             {{ app.title | escape }}
           </a>
